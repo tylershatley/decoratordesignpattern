@@ -4,14 +4,14 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class CarLot {
-	
+
 	public CarLot() {}
 	
 	public void play() {
 		Vehicle sedan = new Sedan();
 		sedan = new Paint(sedan);
 		sedan = new Rims(sedan);
-		
+		System.out.println("asf");
 		Vehicle sportsCar = new SportsCar();
 		sportsCar = new SoundSystem(sportsCar);
 		sportsCar = new Paint(sportsCar);
