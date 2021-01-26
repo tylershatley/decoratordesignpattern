@@ -11,11 +11,9 @@ public class CarLot {
 		Vehicle sedan = new Sedan();
 		sedan = new Paint(sedan);
 		sedan = new Rims(sedan);
-		System.out.println("asf");
 		Vehicle sportsCar = new SportsCar();
 		sportsCar = new SoundSystem(sportsCar);
 		sportsCar = new Paint(sportsCar);
-		
 		Vehicle compact = new Compact();
 		compact = new Rims(compact);
 		
